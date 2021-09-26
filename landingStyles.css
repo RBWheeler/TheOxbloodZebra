@@ -1,0 +1,67 @@
+body {
+    background-image: url("TOZimages/landingBG.png");
+    background-position: 50% 28%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #5A000A;
+}
+
+h1 {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6.5vmin;
+    color: white;
+}
+
+.box {
+    display: inline-block;
+    width: 100%;
+    height: 10vmin;
+    background: #5A000A;
+}
+
+header {
+    padding-top: .75%;
+}
+
+#contact {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+
+#navmenu,
+a {
+    font-family: din-2014, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5vmin;
+    letter-spacing: .5pt;
+    text-decoration: none;
+    color: white;
+    padding-top: 3%;
+    padding-left: 1%;
+    line-height: 211%;
+}
+
+a:hover {
+    color: #5A000A;
+}
+
+#logo {
+    position: absolute;
+    bottom: 2%;
+    padding-left: 2%;
+}
+
+#copyright {
+    font-family: din-2014, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-small;
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
