@@ -20,7 +20,7 @@ capt {
   font-family: din-2014, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 11.25px;
+  font-size: 14px;
   letter-spacing: .5pt;
   color: #5A000A;
   text-align: justify;
@@ -68,6 +68,7 @@ a {
     right: 2%;
     color: #ffffff;
     background-color: #5A000A;
+    z-index: 2;
 }
 
 
@@ -85,7 +86,6 @@ button {
   font-style: normal;
   font-size: 1.5vmin;
   letter-spacing: .5pt;
-  text-decoration: none;
   color: #ffffff;
   padding-left: 1%;
   padding-right: 1%;
@@ -95,6 +95,11 @@ button {
   position: fixed;
   top: 2%;
   right: 2%;
+}
+
+button:hover {
+  color: #5A000A;
+  background-color: #ffffff;
 }
 
 
@@ -151,7 +156,7 @@ div#productImages li {
 div#productImages img {
   padding:0;
   width: 100%;
-  height: 90%;
+  height: 81%;
 }
 
 div#productImages a {
@@ -159,10 +164,9 @@ div#productImages a {
   font-family: din-2014, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 9.5px;
+  font-size: 11px;
   letter-spacing: .5pt;
   color: #5A000A;
-  text-align: justify;
   width: inherit;
 }
 

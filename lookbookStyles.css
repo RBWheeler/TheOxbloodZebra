@@ -56,6 +56,7 @@ a {
     right: 2%;
     color: #ffffff;
     background-color: #5A000A;
+    z-index: 2;
 }
 
 
@@ -83,6 +84,11 @@ button {
   position: fixed;
   top: 2%;
   right: 2%;
+}
+
+button:hover {
+  color: #5A000A;
+  background-color: #ffffff;
 }
 
 

@@ -1,7 +1,7 @@
 body {
-    background-image: url("TOZimages/landingBG.png");
-    background-position: 50% 28%;
-    background-size: cover;
+    background-image: url("TOZimages/AboutBG.jpg");
+    background-position: 75% -10%;
+    background-size: 100vmax;
     background-repeat: no-repeat;
     background-color: #5A000A;
 }
@@ -14,8 +14,9 @@ h1 {
     color: white;
     padding-top: .75%;
     text-align: center;
-    line-height: normal;
 }
+
+
 
 .box {
     display: inline-block;
@@ -23,7 +24,6 @@ h1 {
     height: 10vmin;
     background: #5A000A;
 }
-
 
 #navmenu {
     font-family: din-2014, sans-serif;
@@ -45,12 +45,13 @@ a {
     font-size: 1.5vmin;
     letter-spacing: .5pt;
     text-decoration: none;
-    color: #ffffff;
+    color: #5A000A;
     padding-top: 3%;
     padding-left: 1%;
     padding-right: 1%;
     line-height: 211%;
 }
+
 
 a:hover {
     color: #ffffff;
@@ -92,6 +93,13 @@ button:hover {
 }
 
 
+#currentPage {
+  background-color: #5A000A;
+  color: #ffffff;
+  padding-top: 0px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
 
 #logo {
     position: fixed;
@@ -105,7 +113,28 @@ button:hover {
     font-style: normal;
     font-size: xx-small;
     color: white;
-    position: absolute;
-    bottom: 2%;
-    right: 2%;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: calc(4% + 20px);
+    background-color: #5A000A;
+    text-align: right;
+    padding-right: 3%;
+}
+
+#aboutBlock {
+  right: 0;
+  width: 33%;
+  padding: 2% 1% 10% 2%;
+  margin: 2% 2% 10% 2%;
+  position: absolute;
+  background-color: #ffffff;
+  color: #5A000A;
+  font-family: Helvetica Neue, Helvetica, Arial;
+
+}
+
+h2 {
+  font-family: din-condensed, sans-serif;
+  font-size: 151%;
 }
